@@ -1,0 +1,129 @@
+{
+  "pages": {
+    "login": {
+      "title": "ចូលទៅក្នុងគណនីរបស់អ្នក",
+      "signin": "ចូល",
+      "signup": "ចុះឈ្មោះ",
+      "divider": "ឬ",
+      "fields": {
+        "email": "អ៊ីមែល",
+        "password": "ពាក្យសម្ងាត់"
+      },
+      "errors": {
+        "validEmail": "អាសយដ្ឋានអ៊ីមែលមិនត្រឹមត្រូវ"
+      },
+      "buttons": {
+        "submit": "ចូល",
+        "forgotPassword": "ភ្លេចពាក្យសម្ងាត់?",
+        "noAccount": "មិនមានគណនី?",
+        "rememberMe": "ចងចាំខ្ញុំ"
+      }
+    },
+    "forgotPassword": {
+      "title": "ភ្លេចពាក្យសម្ងាត់របស់អ្នក?",
+      "fields": {
+        "email": "អ៊ីមែល"
+      },
+      "errors": {
+        "validEmail": "អាសយដ្ឋានអ៊ីមែលមិនត្រឹមត្រូវ"
+      },
+      "buttons": {
+        "submit": "ផ្ញើការណែនាំកំណត់ឡើងវិញ"
+      }
+    },
+    "register": {
+      "title": "ចុះឈ្មោះគណនីរបស់អ្នក",
+      "fields": {
+        "email": "អ៊ីមែល",
+        "password": "ពាក្យសម្ងាត់"
+      },
+      "errors": {
+        "validEmail": "អាសយដ្ឋានអ៊ីមែលមិនត្រឹមត្រូវ"
+      },
+      "buttons": {
+        "submit": "ចុះឈ្មោះ",
+        "haveAccount": "មានគណនី?"
+      }
+    },
+    "updatePassword": {
+      "title": "ធ្វើបច្ចុប្បន្នភាពពាក្យសម្ងាត់",
+      "fields": {
+        "password": "ពាក្យសម្ងាត់ថ្មី",
+        "confirmPassword": "បញ្ជាក់ពាក្យសម្ងាត់ថ្មី"
+      },
+      "errors": {
+        "confirmPasswordNotMatch": "ពាក្យសម្ងាត់មិនដូចគ្នា"
+      },
+      "buttons": {
+        "submit": "ធ្វើបច្ចុប្បន្នភាព"
+      }
+    },
+    "error": {
+      "info": "អ្នកអាចបានភ្លេចបន្ថែមបំណង {{action}} ទៅធនធាន {{resource}}.",
+      "404": "សូមទោស, ទំព័រដែលអ្នកបានចូលមើលមិនមានទេ.",
+      "resource404": "តើអ្នកប្រាកដថាបានបង្កើតធនធាន {{resource}}.",
+      "backHome": "ត្រឡប់ទៅទំព័រដើម"
+    }
+  },
+  "actions": {
+    "list": "បញ្ជី",
+    "create": "បង្កើត",
+    "edit": "កែប្រែ",
+    "show": "បង្ហាញ",
+    "delete": "លុប",
+    "cancel": "បោះបង់"
+  },
+  "buttons": {
+    "add": "បន្ថែម",
+    "create": "បង្កើត",
+    "save": "រក្សាទុក",
+    "logout": "ចេញ",
+    "delete": "លុប",
+    "edit": "កែប្រែ",
+    "cancel": "បោះបង់",
+    "confirm": "តើអ្នកប្រាកដឬ?",
+    "filter": "តម្រង",
+    "clear": "សម្អាត",
+    "refresh": "ធ្វើបច្ចុប្បន្នភាព",
+    "show": "បង្ហាញ",
+    "undo": "មិនធ្វើវិញ",
+    "import": "នាំចូល",
+    "export": "ទាញយកទិន្នន័យ",
+    "clone": "ចម្លង",
+    "accept": "ទទួលយក",
+    "acceptAll": "ទទួលយកទាំងអស់",
+    "reject": "បដិសេធ",
+    "rejectAll": "បដិសេធទាំងអស់",
+    "nextStep": "បន្ទាប់",
+    "previousStep": "មុន"
+  },
+  "loading": "កំពុងផ្ទុក",
+  "tags": {
+    "clone": "ចម្លង"
+  },
+  "table": {
+    "actions": "សកម្មភាព",
+    "inTotal": "សរុប"
+  },
+  "search": {
+    "placeholder": "ស្វែងរកដោយលេខសម្គាល់ហាង, អ៊ីមែល, ពាក្យគន្លឹះ",
+    "more": "ច្រើនទៀត"
+  },
+  "status": {
+    "enable": "បើក",
+    "disable": "បិទ"
+  },
+  "warnWhenUnsavedChanges": "តើអ្នកប្រាកដថាចង់ចាកចេញ? អ្នកមានការផ្លាស់ប្តូរដែលមិនបានរក្សាទុក.",
+  "notifications": {
+    "success": "ជោគជ័យ",
+    "error": "កំហុស (លេខកូដស្ថានភាព: {{statusCode}})",
+    "undoable": "អ្នកមាន {{seconds}} វិនាទីដើម្បីមិនធ្វើវិញ",
+    "createSuccess": "បានបង្កើត {{resource}} ជោគជ័យ",
+    "createError": "មានកំហុសក្នុងការបង្កើត {{resource}} (លេខកូដស្ថានភាព: {{statusCode}})",
+    "deleteSuccess": "បានលុប {{resource}} ជោគជ័យ",
+    "deleteError": "កំហុសពេលលុប {{resource}} (លេខកូដស្ថានភាព: {{statusCode}})",
+    "editSuccess": "បានកែប្រែ {{resource}} ជោគជ័យ",
+    "editError": "កំហុសពេលកែប្រែ {{resource}} (លេខកូដស្ថានភាព: {{statusCode}})",
+    "importProgress": "កំពុងនាំចូល: {{processed}}/{{total}}"
+  }
+}
