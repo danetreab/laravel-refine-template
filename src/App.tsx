@@ -9,7 +9,6 @@ import routerBindings, {
   DocumentTitleHandler,
   UnsavedChangesNotifier,
 } from "@refinedev/react-router-v6";
-import dataProvider from "@refinedev/simple-rest";
 import { App as AntdApp } from "antd";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import { ColorModeContextProvider } from "./contexts/color-mode";
@@ -18,11 +17,9 @@ import { AppRoutes } from "@/routes";
 import { authProvider } from "@/providers/auth-provider";
 import { resources } from "@/resources";
 import { useTranslation } from "react-i18next";
-
+import { dataProvider } from "./providers/rest-data-provider";
 
 function App() {
-
-
   const { t, i18n } = useTranslation();
   const i18nProvider = {
     translate: (key: string, params: Record<string, string>) => t(key, params),
