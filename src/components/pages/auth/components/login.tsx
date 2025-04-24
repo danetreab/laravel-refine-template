@@ -161,29 +161,15 @@ export const LoginPage: React.FC<LoginProps> = ({
           {...formProps}
         >
           <Form.Item
-            name="email"
-            label={translate("pages.login.fields.email", "Email")}
+            name="phone"
+            label={translate("pages.login.fields.phone")}
             rules={[
               {
                 required: true,
-                message: translate(
-                  "pages.login.errors.requiredEmail",
-                  "Email is required"
-                ),
-              },
-              {
-                type: "email",
-                message: translate(
-                  "pages.login.errors.validEmail",
-                  "Invalid email address"
-                ),
               },
             ]}
           >
-            <Input
-              size="large"
-              placeholder={translate("pages.login.fields.email", "Email")}
-            />
+            <Input size="large" />
           </Form.Item>
           <Form.Item
             name="password"
